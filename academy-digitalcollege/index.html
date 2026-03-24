@@ -12,14 +12,18 @@
             <img src="https://academy.digitalcollege.com.br/login/images/logo-academy-preta.png" alt="logo-academy" class="logo-big">
             <h4>Acesso ao EAD da Digital College</h4>
             <p>Preencha os seus dados abaixo.</p>
-        <form class="login-form">
-            <input type="number" placeholder="CPF" required>
-            <input type="password" placeholder="Senha" required>
-           
-       
-         <div class="login-remember">
-            <input type="radio" name="remember" id="remember">
-            <label for="rememberlogin">             
+         <form class="login-form">
+            <input type="text" placeholder="CPF" required>
+            <input type="password" placeholder="Senha" required> 
+        <!-- inclusão de campos:
+            <fieldset class="login-campos">
+                <input type="number" placeholder="CPF" required>
+                <input type="password" placeholder="Senha" required>
+            </fieldset> -->
+            <div class="login-remember">
+                <input type="checkbox" id="remember-me">
+                <span class="custom-checkbox"></span>
+                <label for="remember-me">             
             Lembrar meu acesso
             </label>
             <a href="#">Esqueceu a senha?</a>         

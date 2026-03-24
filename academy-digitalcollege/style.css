@@ -20,12 +20,12 @@ body{
     border-radius: 20px;
     display: flex;
     width: 80%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     position: relative; 
 }
 
 .login-academy{
-    flex: 1;
+    flex: 1; /*preenche a div com o elemento*/
     padding: 40px 80px;
 }
 
@@ -73,13 +73,19 @@ form{
     box-sizing: border-box;
 }
 
-.login-remember input [type="checkbox"]{
-    display: none;
-    background-color: initial;
-    cursor: default;
-    appearance: auto;
-    margin: 3px 3px 3px 4px;
+.login-remember{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+#remember-me{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #BF0067;
+    border-radius: 50%;
+}
+
 
 button{
     background-color: #BF0067;
